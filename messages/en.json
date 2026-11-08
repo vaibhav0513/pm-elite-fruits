@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "PM Elite Fruits | Freshness in every bite",
+    "description": "Order fresh mango, strawberry, blueberry and more online. Delivered to your door."
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "bulk": "Bulk orders",
+    "cart": "Cart",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Fresh fruit, delivered to your door",
+    "subtitle": "Mango, strawberry, blueberry and more. Order online and pay when it arrives.",
+    "shop": "Shop fruits",
+    "bulk": "Order in bulk",
+    "note": "Pay on delivery. No sign-up needed."
+  },
+  "footer": {
+    "tagline": "Freshness in every bite.",
+    "links": "Pages",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "whatsappBtn": "Chat on WhatsApp",
+"whatsappMsg": "Hello *PM Elite Fruits* 👋\nI want to place an order.\n\n*Name:* \n*Fruit:* \n*Quantity (kg):* \n*Address:* \n*Delivery time:* \n\nThank you!"
+  },
+  "orderMsg": {
+  "hello": "Hello *PM Elite Fruits*",
+  "intro": "I want to place an order.",
+  "items": "Fruit and quantity:",
+  "unit": "kg",
+  "name": "Name",
+  "address": "Address",
+  "time": "Delivery time",
+  "thanks": "Thank you!"
+},
+"cart": {
+  "title": "Your cart",
+  "empty": "Your cart is empty",
+  "emptyHint": "Add some fresh fruits and they will show up here.",
+  "shopFruits": "Shop fruits",
+  "remove": "Remove",
+  "summary": "Order summary",
+  "total": "Total",
+  "note": "Pay on delivery. The shop will confirm the final price on WhatsApp.",
+  "orderWhatsapp": "Order on WhatsApp",
+  "clear": "Clear cart"
+},
+  "home": {
+    "featuredTitle": "Fresh today",
+    "featuredSub": "Prices are per kg.",
+    "perKg": "per kg",
+    "viewAll": "See all fruits",
+    "seasonTitle": "Mango season is here",
+    "seasonText": "Order sweet mangoes by the kg or by the box.",
+    "seasonCta": "Order mangoes",
+    "why": {
+      "title": "Why choose PM Elite Fruits",
+      "fresh": {
+        "title": "Fresh every day",
+        "text": "Fruit is sorted every morning, so you get ripe, clean fruit."
+      },
+      "pay": {
+        "title": "Pay on delivery",
+        "text": "No online payment needed. Pay by cash or UPI when your fruit arrives."
+      },
+      "bulk": {
+        "title": "Bulk orders",
+        "text": "Hotels, juice shops and events can order large quantities."
+      }
+    },
+    "testimonials": {
+      "title": "What customers say",
+      "subtitle": "Sample reviews. Replace with real customer feedback.",
+      "rating": "5 out of 5 stars",
+      "items": [
+        {
+          "name": "Sneha Patil",
+          "place": "Kolhapur",
+          "text": "The mangoes were sweet and properly ripe. They arrived the same day I ordered."
+        },
+        {
+          "name": "Rahul Jadhav",
+          "place": "Sangli",
+          "text": "I ordered strawberries for my daughter’s birthday. They were fresh and packed well."
+        },
+        {
+          "name": "Anita Shinde",
+          "place": "Juice shop owner, Pune",
+          "text": "We buy blueberries and mangoes in bulk for our shop. The quality stays steady."
+        }
+      ]
+    }
+  },
+  "shop": {
+    "title": "Shop fruits",
+    "subtitle": "Choose your fruit and how many kg you need.",
+    "searchLabel": "Search fruits",
+    "searchPlaceholder": "Search mango, strawberry...",
+    "categoriesLabel": "Fruit type",
+    "categories": {
+      "all": "All",
+      "berries": "Berries",
+      "tropical": "Tropical and other"
+    },
+    "noResults": "No fruit found. Try another name or type.",
+    "perKg": "per kg",
+    "kg": "kg",
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "outOfStock": "Out of stock",
+    "quantity": "Quantity in kg",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "backToShop": "Back to all fruits",
+    "photo": "Photo {n} of {total}",
+    "prevPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "zoom": "View larger",
+    "closeViewer": "Close"
+  },
+  "about": {
+    "title": "Our story",
+    "subtitle": "A family fruit business, serving customers since 2021.",
+    "stats": {
+      "label": "Our numbers",
+      "years": "Years of service",
+      "customers": "Happy customers",
+      "kg": "Kg of fruit delivered",
+      "varieties": "Fruit varieties"
+    },
+    "journeyTitle": "Our journey",
+    "milestones": [
+      {
+        "year": "2021",
+        "title": "The beginning",
+        "text": "Our family started PM Elite Fruits with a small stock of seasonal fruit."
+      },
+      {
+        "year": "2022",
+        "title": "First regular customers",
+        "text": "Word spread by mouth, and our first regular customers began ordering every week."
+      },
+      {
+        "year": "2023",
+        "title": "Berries and bulk orders",
+        "text": "We added berries and started taking orders from juice shops and events."
+      },
+      {
+        "year": "2026",
+        "title": "Online ordering",
+        "text": "We launched online ordering, so you can order in English, Marathi or Hindi."
+      }
+    ],
+    "familyTitle": "Delivered by our family",
+    "familyText": "From sorting the fruit to ringing your doorbell, our family handles your order ourselves. You see the same faces every time, and you can call us directly if anything is wrong.",
+    "familyPhotoAlt": "Our family",
+    "ctaTitle": "Ready to order?",
+    "ctaButton": "Shop fruits"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Send us a message and we will reply on WhatsApp.",
+    "formTitle": "Send a message",
+    "name": "Your name",
+    "phone": "Mobile number",
+    "message": "Your message",
+    "send": "Send on WhatsApp",
+    "nameRequired": "Enter your name.",
+    "phoneInvalid": "Enter a 10-digit mobile number.",
+    "messageRequired": "Write a short message.",
+    "note": "This opens WhatsApp with your message ready. Press send there to finish.",
+    "infoTitle": "Reach us directly",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "visit": "Address",
+    "hours": "Opening hours",
+    "waMessage": "Hello PM Elite Fruits!\nName: {name}\nPhone: {phone}\nMessage: {message}",
+    "whatsappBtn": "Chat on WhatsApp",
+    "whatsappMsg": "Hello PM Elite Fruits, I want to order fruits."
+  }
+}
