@@ -2,7 +2,7 @@
 export const site = {
   name: 'PM Elite Fruits',
   phone: '+91 97020 32730',
-  whatsapp: '918070905353', // country code + number, no + or spaces
+  whatsapp: '9197020 32730', // country code + number, no + or spaces
   email: 'pmelitefruits@gmail.com',
   address: 'Thane, Maharashtra',
   hours: '8:00 AM – 8:00 PM',
