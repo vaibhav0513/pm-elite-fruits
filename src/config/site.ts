@@ -1,8 +1,8 @@
 // Change these to the real shop details
 export const site = {
   name: 'PM Elite Fruits',
-  phone: '+91 97020 32730',
-  whatsapp: '9197020 32730', // country code + number, no + or spaces
+  phone: '+91 8169873858',
+  whatsapp: '918169873858', // country code + number, no + or spaces
   email: 'pmelitefruits@gmail.com',
   address: 'Thane, Maharashtra',
   hours: '8:00 AM – 8:00 PM',

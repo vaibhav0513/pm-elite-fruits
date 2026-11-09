@@ -27,30 +27,31 @@
     "contact": "Contact",
     "rights": "All rights reserved.",
     "whatsappBtn": "Chat on WhatsApp",
-"whatsappMsg": "Hello *PM Elite Fruits* 👋\nI want to place an order.\n\n*Name:* \n*Fruit:* \n*Quantity (kg):* \n*Address:* \n*Delivery time:* \n\nThank you!"
+    "whatsappMsg": "Hello *PM Elite Fruits* 👋\nI want to place an order.\n\n*Name:* \n*Fruit:* \n*Quantity (kg):* \n*Address:* \n*Delivery time:* \n\nThank you!"
   },
   "orderMsg": {
-  "hello": "Hello *PM Elite Fruits*",
-  "intro": "I want to place an order.",
-  "items": "Fruit and quantity:",
-  "unit": "kg",
-  "name": "Name",
-  "address": "Address",
-  "time": "Delivery time",
-  "thanks": "Thank you!"
-},
-"cart": {
-  "title": "Your cart",
-  "empty": "Your cart is empty",
-  "emptyHint": "Add some fresh fruits and they will show up here.",
-  "shopFruits": "Shop fruits",
-  "remove": "Remove",
-  "summary": "Order summary",
-  "total": "Total",
-  "note": "Pay on delivery. The shop will confirm the final price on WhatsApp.",
-  "orderWhatsapp": "Order on WhatsApp",
-  "clear": "Clear cart"
-},
+    "hello": "Hello *PM Elite Fruits*",
+    "intro": "I want to place an order.",
+    "items": "Fruit and quantity:",
+    "unit": "kg",
+    "name": "Name",
+    "address": "Address",
+    "time": "Delivery time",
+    "thanks": "Thank you!"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty",
+    "emptyHint": "Add some fresh fruits and they will show up here.",
+    "shopFruits": "Shop fruits",
+    "remove": "Remove",
+    "summary": "Order summary",
+    "total": "Total",
+    "note": "Pay on delivery. The shop will confirm the final price on WhatsApp.",
+    "orderWhatsapp": "Order on WhatsApp",
+    "clear": "Clear cart",
+    "unavailable": "Not available right now"
+  },
   "home": {
     "featuredTitle": "Fresh today",
     "featuredSub": "Prices are per kg.",
@@ -59,6 +60,9 @@
     "seasonTitle": "Mango season is here",
     "seasonText": "Order sweet mangoes by the kg or by the box.",
     "seasonCta": "Order mangoes",
+    "seasonSoonTitle": "Mango season is coming soon",
+    "seasonSoonText": "Sweet mangoes will be here shortly. Check back soon.",
+    "seasonSoonCta": "See mangoes",
     "why": {
       "title": "Why choose PM Elite Fruits",
       "fresh": {
@@ -81,17 +85,17 @@
       "items": [
         {
           "name": "Sneha Patil",
-          "place": "Kolhapur",
+          "place": "Thane",
           "text": "The mangoes were sweet and properly ripe. They arrived the same day I ordered."
         },
         {
           "name": "Rahul Jadhav",
-          "place": "Sangli",
+          "place": "Mumbai",
           "text": "I ordered strawberries for my daughter’s birthday. They were fresh and packed well."
         },
         {
           "name": "Anita Shinde",
-          "place": "Juice shop owner, Pune",
+          "place": "Thane",
           "text": "We buy blueberries and mangoes in bulk for our shop. The quality stays steady."
         }
       ]
@@ -122,7 +126,14 @@
     "prevPhoto": "Previous photo",
     "nextPhoto": "Next photo",
     "zoom": "View larger",
-    "closeViewer": "Close"
+    "closeViewer": "Close",
+    "comingSoon": "Coming soon",
+    "comingSoonNote": "Not in season yet. We will add it here as soon as it arrives.",
+    "priceUpdated": "Price updated {date}",
+    "priceOnRequest": "Price on WhatsApp",
+    "askPrice": "Ask today's price on WhatsApp",
+    "askPriceMsg": "Hello *PM Elite Fruits* 👋\nPlease tell me today's price of *{name}*.\n\n*Quantity needed:* \n*Name:* \n*Address:* \n\nThank you!",
+    "chooseOption": "Choose a pack"
   },
   "about": {
     "title": "Our story",
@@ -161,7 +172,11 @@
     "familyText": "From sorting the fruit to ringing your doorbell, our family handles your order ourselves. You see the same faces every time, and you can call us directly if anything is wrong.",
     "familyPhotoAlt": "Our family",
     "ctaTitle": "Ready to order?",
-    "ctaButton": "Shop fruits"
+    "ctaButton": "Shop fruits",
+    "ownerTitle": "Meet the owner",
+"ownerName": "Prashant Mohite",
+"ownerRole": "Owner, PM Elite Fruits",
+"ownerText": "Prashant Mohite runs PM Elite Fruits. For orders, bulk requests or any question, call him directly or message him on WhatsApp."
   },
   "contact": {
     "title": "Contact us",

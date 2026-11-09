@@ -24,7 +24,7 @@ export default function Footer() {
           <h2 className="text-lg font-bold text-white">{t('links')}</h2>
           <ul className="mt-3 space-y-2 text-sm">
             <li><Link className="hover:text-gold-light" href="/shop">{n('shop')}</Link></li>
-            <li><Link className="hover:text-gold-light" href="/bulk-order">{n('bulk')}</Link></li>
+            {/* <li><Link className="hover:text-gold-light" href="/bulk-order">{n('bulk')}</Link></li> */}
             <li><Link className="hover:text-gold-light" href="/about">{n('about')}</Link></li>
             <li><Link className="hover:text-gold-light" href="/contact">{n('contact')}</Link></li>
           </ul>

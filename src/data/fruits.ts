@@ -9,7 +9,7 @@ const photos = (slug: string, count = 6, ext = 'jpeg') =>
 // SAMPLE DATA. Replace names, descriptions and prices with the owner's real list.
 export const fruits: Fruit[] = [
   {
-    slug: 'mango', images: photos('mango'), category: 'tropical', pricePerKg: 180, inStock: true, emoji: '🥭', tint: 'bg-mango/15', featured: true,
+    slug: 'mango', images: photos('mango'), category: 'tropical', pricePerKg: 180, inStock: true, emoji: '🥭', tint: 'bg-mango/15', featured: true, status: 'upcoming',
     name: { en: 'Mango', mr: 'आंबा', hi: 'आम' },
     description: {
       en: 'Sweet, juicy and ripe. Great for eating fresh or making juice and shakes.',

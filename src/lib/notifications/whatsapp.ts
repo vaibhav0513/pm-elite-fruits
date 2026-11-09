@@ -1,6 +1,6 @@
 import { site } from '@/config/site';
 
-export type OrderLine = { name: string; kg: number };
+export type OrderLine = { name: string; qty: string }; // qty like "2 kg" or "3 × Box"
 
 export type OrderLabels = {
   hello: string;
@@ -14,7 +14,7 @@ export type OrderLabels = {
 };
 
 export function buildOrderLink(lines: OrderLine[], l: OrderLabels) {
-  const list = lines.map((x, i) => `${i + 1}. ${x.name} – ${x.kg} ${l.unit}`).join('\n');
+  const list = lines.map((x, i) => `${i + 1}. ${x.name} – ${x.qty}`).join('\n');
   const text =
     `${l.hello} 👋\n${l.intro}\n\n` +
     `*${l.items}*\n${list}\n\n` +

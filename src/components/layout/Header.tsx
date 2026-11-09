@@ -11,7 +11,7 @@ export default function Header() {
   const links = [
     { href: '/', label: t('home') },
     { href: '/shop', label: t('shop') },
-    { href: '/bulk-order', label: t('bulk') },
+    // { href: '/bulk-order', label: t('bulk') },
     { href: '/about', label: t('about') },
     { href: '/contact', label: t('contact') }
   ];

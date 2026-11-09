@@ -12,7 +12,7 @@ export default async function Hero() {
         <p className="mt-5 max-w-md text-lg leading-relaxed text-forest-dark/80">{t('subtitle')}</p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/shop" className="btn btn-primary">{t('shop')}</Link>
-          <Link href="/bulk-order" className="btn btn-outline">{t('bulk')}</Link>
+          {/* <Link href="/bulk-order" className="btn btn-outline">{t('bulk')}</Link> */}
         </div>
         <p className="mt-4 text-sm text-forest-dark/60">{t('note')}</p>
       </div>

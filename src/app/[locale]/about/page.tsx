@@ -9,10 +9,15 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 type Milestone = { year: string; title: string; text: string };
 
+// Put the owner's photo in /public/images/ and write its path here, for example '/images/owner.jpg'.
+// Leave it empty to show the "PM" circle instead.
+const OWNER_PHOTO = '';
+
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('about');
+  const c = await getTranslations('contact');
   const milestones = t.raw('milestones') as Milestone[];
 
   const stats = [
@@ -70,6 +75,44 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             )}
           </div>
         </div>
+      </section>
+
+      <section className="container-x py-12" aria-labelledby="owner-title">
+        <ScrollReveal>
+          <div className="flex flex-col items-center gap-6 rounded-3xl border border-gold/40 bg-white p-6 text-center md:flex-row md:gap-10 md:p-10 md:text-left">
+            <div className="flex h-32 w-32 shrink-0 items-center justify-center overflow-hidden rounded-full border-2 border-gold bg-cream-deep/60 md:h-40 md:w-40">
+              {OWNER_PHOTO ? (
+                <Image src={OWNER_PHOTO} alt={t('ownerName')} width={160} height={160} className="h-full w-full object-cover" />
+              ) : (
+                <span className="font-serif text-4xl font-bold text-forest md:text-5xl" aria-hidden="true">PM</span>
+              )}
+            </div>
+
+            <div>
+              <h2 id="owner-title" className="text-sm font-semibold uppercase tracking-wide text-leaf">{t('ownerTitle')}</h2>
+              <p className="mt-1 font-serif text-3xl font-bold text-forest md:text-4xl">{t('ownerName')}</p>
+              <p className="text-forest-dark/70">{t('ownerRole')}</p>
+              <p className="mt-4 max-w-xl leading-relaxed text-forest-dark/80">{t('ownerText')}</p>
+
+              <div className="mt-5 flex flex-wrap justify-center gap-3 md:justify-start">
+                <a
+                  href={`tel:${site.phone.replace(/\s/g, '')}`}
+                  className="inline-flex items-center rounded-full bg-forest px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-leaf"
+                >
+                  {c('call')}
+                </a>
+                <a
+                  href={`https://wa.me/${site.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white transition hover:brightness-110"
+                >
+                  {c('whatsapp')}
+                </a>
+              </div>
+            </div>
+          </div>
+        </ScrollReveal>
       </section>
 
       <section className="container-x py-12 text-center">
